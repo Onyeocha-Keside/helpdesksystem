@@ -1,0 +1,46 @@
+# Intelligent Help Desk System - .gitignore
+
+# =====================================================
+# SECURITY - NEVER COMMIT THESE!
+# =====================================================
+.env
+*.key
+
+# =====================================================
+# PYTHON
+# =====================================================
+# Virtual environments
+venv/
+help_desk_venv/
+__pycache__/
+*.py[cod]
+*.pyc
+
+# =====================================================
+# AI/ML MODELS & CACHE
+# =====================================================
+# Hugging Face cache (sentence transformers downloads here)
+.cache/
+transformers_cache/
+
+# =====================================================
+# LOGS & TEMPORARY FILES
+# =====================================================
+logs/
+*.log
+*.tmp
+
+# =====================================================
+# IDE & SYSTEM FILES
+# =====================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =====================================================
+# PROJECT SPECIFIC
+# =====================================================
+# Test outputs (if you create any)
+test_responses/
+debug_output/
